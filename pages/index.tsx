@@ -1,15 +1,16 @@
 import Link from 'next/link';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-5xl font-bold text-blue-600">
+    <div className={styles.container}>
+      <h1 className={styles.title}>
         Welcome to My Landing Page!
       </h1>
-      <p className="mt-3 text-gray-700">
+      <p className={styles.description}>
         This is a simple Next.js landing page using TypeScript and Tailwind CSS.
       </p>
-      <Link href="/about" className="px-6 py-2 mt-5 text-white bg-blue-500 rounded hover:bg-blue-700 focus:outline-none">
+      <Link href="/about" className={styles.button}>
         Get Started
       </Link>
     </div>

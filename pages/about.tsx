@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from '../styles/About.module.css';
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold">About Us</h1>
-      <p className="mt-3 text-lg">This is the About page.</p>
+    <div className={styles.container}>
+      <h1 className={styles.title}>About Us</h1>
+      <p className={styles.description}>This is the About page.</p>
     </div>
   );
 };
