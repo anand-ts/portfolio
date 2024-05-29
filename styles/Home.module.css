@@ -3,7 +3,15 @@
   }
   
   .title {
-    @apply text-5xl font-bold text-blue-600 animate-fadeIn;
+    @apply text-5xl font-bold text-blue-600 animate-fadeIn absolute;
+    top: middle;
+    left: 45rem;
+  }
+  
+  .subtitle {
+    @apply text-5xl font-bold text-blue-600 opacity-0 animate-fadeInDelayed absolute;
+    top: middle;
+    left: 51rem; /* Adjust this value to position the subtitle next to the title */
   }
   
   .description {
@@ -11,6 +19,8 @@
   }
   
   .button {
-    @apply px-6 py-2 mt-5 text-white bg-blue-500 rounded hover:bg-blue-700 focus:outline-none;
+    @apply px-6 py-2 mt-5 text-white bg-blue-500 rounded hover:bg-blue-700 focus:outline-none absolute;
+    top: 32rem;
+    left: 60rem;
   }
   

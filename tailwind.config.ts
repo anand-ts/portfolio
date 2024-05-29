@@ -16,6 +16,7 @@ const config: Config = {
       },
       animation: {
         fadeIn: 'fadeIn 4.0s ease-in-out forwards',
+        fadeInDelayed: 'fadeIn 1s ease-in-out 4.0s forwards',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
